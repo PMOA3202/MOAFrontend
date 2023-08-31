@@ -176,7 +176,7 @@ function Header() {
               <div className="col-md-3">
                 <div className="">
                   <Nav.Link
-                    href="#"
+                    href="/sign-up"
                     className="ms-auto d-flex w-100 justify-content-end"
                   >
                     {" "}

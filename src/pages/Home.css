@@ -67,6 +67,7 @@ button {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  
   .banner-text h1 {
     font-size: 35px;
     line-height: 40px;
@@ -119,6 +120,7 @@ button {
   p{
     font-size: 14px !important;
   }
+ 
 }
 
 /* Small devices (landscape phones, 576px and up) */

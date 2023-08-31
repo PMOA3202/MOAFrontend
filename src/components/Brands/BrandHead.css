@@ -43,7 +43,7 @@
 }
 
 .brand_detail_head h3 {
-  font-size: 40px;
+  font-size: 50px;
   color: #dbb85c;
   font-family: 'Playfair Display', serif;
   margin-right: 10px;
@@ -135,6 +135,9 @@
   }
   .brand_detail_head h2 {
     font-size: 40px !important;
+  }
+  .brand_detail_head h3 {
+    font-size: 40px;
   }
   .brand_detail_head h4 {
     font-size: 16px;

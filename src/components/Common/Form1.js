@@ -15,7 +15,7 @@ const Form1 = ({ id, title, para }) => {
   };
   return (
     <div className="form1 py-xl-5 pt-4 pb-3">
-      <div className="main-pad w-75 mx-auto ">
+      <div className="main-pad mx-auto ">
         <Fragment>
           <div className="row pt-md-3">
             <div className="col-md-7">

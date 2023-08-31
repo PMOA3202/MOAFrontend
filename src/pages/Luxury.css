@@ -166,6 +166,48 @@
   padding: 8px 20px;
 }
 
+.luxury_card .card3 .card {
+  height: 350px;
+}
+
+.luxury_category .culinary_adv {
+  background-color: rgba(121, 92, 54, 0.6);
+  width: 340px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* left: 0; */
+  right: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+  text-align: center;
+}
+
+.luxury_category .culinary_adv h3 {
+  font-family: BabyHoe;
+  font-size: 55px;
+  margin: 40px 0;
+  color: #fff;
+}
+
+.luxury_category .culinary_adv h4 {
+  font-family: Coldiac;
+  font-size: 30px;
+  color: #fff;
+}
+
+.luxury_category .culinary_adv p {
+  font-family: Coldiac;
+  font-size: 15px !important;
+  text-align: right;
+  color: #fff;
+  margin-top: 20px;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .luxury .carousel1 .text {

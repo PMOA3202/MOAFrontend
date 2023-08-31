@@ -8,16 +8,17 @@ const EventCard = (props) => {
   return (
     <div className="event_card pt-md-5 pt-3 mt-md-4">
       <Fragment>
-        <Container>
+        <div className="main-pad">
           <div className="d-flex">
             <h2> COMING TO YOU THIS MONTH </h2>
+            <hr />
           </div>
           <div className="row">
             <div className="col-md-4">
               <a href="/event-details">
                 <Card6
                   title="Rock and roll fest"
-                  para="March 1st | 5PM - 9PM Onwards &nbsp; The ABCD Zone"
+                  para="March 1st | 5PM - 9PM Onwards"
                   small="100 people have liked this event"
                   image="img/Events/event1.png"
                 />
@@ -28,7 +29,7 @@ const EventCard = (props) => {
               <a href="/event-details">
                 <Card6
                   title="Rock and roll fest"
-                  para="March 1st | 5PM - 9PM Onwards &nbsp; The ABCD Zone"
+                  para="March 1st | 5PM - 9PM Onwards"
                   small="100 people have liked this event"
                   image="img/Events/event2.png"
                 />
@@ -38,14 +39,14 @@ const EventCard = (props) => {
               <a href="/event-details">
                 <Card6
                   title="Rock and roll fest"
-                  para="March 1st | 5PM - 9PM Onwards &nbsp; The ABCD Zone"
+                  para="March 1st | 5PM - 9PM Onwards"
                   small="100 people have liked this event"
                   image="img/Events/event3.png"
                 />
               </a>
             </div>
           </div>
-        </Container>
+        </div>
       </Fragment>
     </div>
   );

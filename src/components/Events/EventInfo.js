@@ -22,15 +22,15 @@ const EventInfo = (props) => {
           </div>
           <div className="card shadow">
             <div className="row">
-              <div className="col-md-4 text-center">
+              <div className="col-md-4 col-4 text-center">
                 <img src="img/Events/date.png" />
                 <p className="mt-md-4 mt-3"> 25th Feb.2023 </p>
               </div>
-              <div className="col-md-4 text-center">
+              <div className="col-md-4 col-4 text-center">
                 <img src="img/Events/time.png" />
                 <p className="mt-md-4 mt-3"> 07:00pm</p>
               </div>
-              <div className="col-md-4 text-center">
+              <div className="col-md-4 col-4 text-center">
                 <img src="img/Events/location.png" />
                 <p className="mt-md-4 mt-3"> ABCD Zone </p>
               </div>
@@ -47,17 +47,17 @@ const EventInfo = (props) => {
             sed quia
           </p>
           <div className="row my-md-5">
-            <div className="col-md-4 px-1">
+            <div className="col-md-4 px-1 mb-1">
               <img src="img/Events/p1.png" />
             </div>
-            <div className="col-md-4 px-1">
+            <div className="col-md-4 px-1 mb-1">
               <img src="img/Events/p2.png" />
             </div>
             <div className="col-md-4 px-1">
               <img src="img/Events/p3.png" />
             </div>
           </div>
-          <div className="tc">
+          <div className="tc py-3">
             <h3> Terms and Conditions</h3>
             <ul className="mt-md-4 mt-3">
               <li>

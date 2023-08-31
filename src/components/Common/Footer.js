@@ -51,33 +51,33 @@ function Footer() {
                     {" "}
                     <p> Services</p>
                   </a>
-                  <a>
+                  <a href="/gift">
                     {" "}
                     <p> Gift Card</p>
                   </a>
-                  <a>
+                  <a href="/blogs">
                     {" "}
                     <p> Blogs </p>
                   </a>
                 </div>
                 <div className="col-md-4">
-                  <a>
+                  <a href="/leasing">
                     {" "}
                     <p> Leasing</p>
                   </a>
-                  <a>
+                  <a href="/careers">
                     {" "}
                     <p> Careers </p>
                   </a>
-                  <a>
+                  <a href="/terms-conditions">
                     {" "}
                     <p> Terms & Conditions </p>
                   </a>
-                  <a>
+                  <a href="/about">
                     {" "}
                     <p> About Us</p>
                   </a>
-                  <a>
+                  <a href="/news">
                     {" "}
                     <p> News </p>
                   </a>

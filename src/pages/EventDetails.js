@@ -17,18 +17,20 @@ const EventDetails = (props) => {
       <div className="event_details">
         <Header />
         <Sidebar />
-        <Banner
-          title="ALL ABOUT MUSIC - ITS ALL HERE"
-          para="Turn on the feeling with all music event "
-          image={LaunchBanner}
-        />
+        <Banner image={LaunchBanner} />
         <EventInfo />
         {/* <Nhance /> */}
-        <Container>
-            <h2 className="w-100 mt-md-4 mt-4"> UPCOMING EVENTS </h2>
-        </Container>
+        <div className="main-pad">
+          <div className="d-flex">
+            <h2 className=""> UPCOMING EVENTS </h2>
+            <hr />
+          </div>
+        </div>
         <EventCard />
-        <Form1 title="Do you have any queries about the events?" para="Write to us and we’ll get back to you!" />
+        <Form1
+          title="Do you have any queries about the events?"
+          para="Write to us and we’ll get back to you!"
+        />
       </div>
     </Fragment>
   );

@@ -14,7 +14,7 @@ function Categories() {
         </div>
         <div className="main-pad">
           <div className="row w-100 mt-md-5 mt-3 ms-0">
-            <div className="col-md-4 px-md-3 px-0">
+            <div className="col-md-4 px-md-0 px-0">
               <img className="main_img" src="img/category1.jpg" />
               <div className="category-text">
                 <h3> Fashionista’s Paradise </h3>
@@ -118,7 +118,7 @@ function Categories() {
                 <button> SEE MORE </button>{" "}
               </Link>
             </div>
-            <div className="col-md-4 px-md-3 px-0">
+            <div className="col-md-4 px-md-0 px-0">
               <img className="main_img" src="img/category2.jpg" />
               <div className="category-text">
                 <h3> Walk In Style</h3>
@@ -126,7 +126,7 @@ function Categories() {
             </div>
           </div>
           <div className="row w-100 mt-xl-5 mt-4 py-md-5 ms-0">
-            <div className="col-md-4 px-md-3 px-0">
+            <div className="col-md-4 px-md-0 px-0">
               <img className="main_img w-100" src="img/category3.jpg" />
               <div className="category-text">
                 <h3> Dine In Elegance </h3>

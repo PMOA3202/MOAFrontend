@@ -6,6 +6,7 @@
     color:#D2AB66;
     font-size: 40px !important;
     padding-right: 40px;
+    text-transform: initial;
 }
 
 .form1 p{
@@ -55,6 +56,10 @@
     font-family: 'Playfair Display', serif;
 }
 
+.form1 .main-pad{
+    width:75%;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .form1 h2 {
@@ -81,6 +86,7 @@
     }
     .form1 .main-pad{
         padding: 0 !important;
+        width:90%;
     }
 }
 

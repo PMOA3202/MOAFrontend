@@ -20,14 +20,14 @@ const Card6 = ({ id, title, para, small, image }) => {
       <Fragment>
         <div className="card shadow">
           <img src={image} />
-          <div className="icons">
+          {/* <div className="icons">
             <AiOutlineHeart className="me-md-2 me-2" />
             <AiOutlineShareAlt />
-          </div>
+          </div> */}
           <div className="text">
             <h3> {title}</h3>
             <p>{para} </p>
-            <div className="d-flex">
+            <div className="d-flex w-100 justify-content-center">
               <AiFillLike />
               <small>{small}</small>
             </div>

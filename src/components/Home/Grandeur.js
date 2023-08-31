@@ -22,7 +22,7 @@ const Grandeur = (props) => {
             <Carousel.Item>
               <div className="row mt-xl-5 mt-md-4 mb-md-3 ms-md-0">
                 
-                <div className="col-md-6 px-md-3">
+                <div className="col-md-6 px-md-0">
                   <img src={Grandeur1} className="w-100" />
                 </div>
                 <div className="col-md-6 mb-md-4 mb-3 px-md-3">
@@ -43,7 +43,7 @@ const Grandeur = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 px-md-3 mt-md-3 d-none d-sm-block">
+                <div className="col-md-6 px-md-0 mt-md-3 d-none d-sm-block">
                   <img src={Grandeur2} className="w-100" />
                 </div>
                 <div className="col-md-6 px-md-3 mt-md-3  d-none d-sm-block">
@@ -53,7 +53,7 @@ const Grandeur = (props) => {
             </Carousel.Item>
             <Carousel.Item>
               <div className="row mt-xl-5 mt-md-4 mb-md-3 ms-md-0">
-                <div className="col-md-6 px-md-3">
+                <div className="col-md-6 px-md-0">
                   <img src={Grandeur1} className="w-100" />
                 </div>
                 <div className="col-md-6 mb-md-4 mb-3 px-md-3">
@@ -74,7 +74,7 @@ const Grandeur = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 px-md-3 mt-md-3 d-none d-sm-block">
+                <div className="col-md-6 px-md-0 mt-md-3 d-none d-sm-block">
                   <img src={Grandeur2} className="w-100" />
                 </div>
                 <div className="col-md-6 px-md-3 mt-md-3 d-none d-sm-block">

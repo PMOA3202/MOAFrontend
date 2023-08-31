@@ -33,7 +33,7 @@ export class Offers extends Component {
           <hr />
         </div>
         <div className="main-pad">
-          <div class="container-fluid pt-md-4">
+          <div class="container-fluid pt-md-0 px-0">
             <OwlCarousel
               items={3}
               className="owl-theme mt-md-5 pt-md-3 mt-3"

@@ -31,7 +31,7 @@ export class StayConnect extends Component {
             <hr />
           </div>
           <div className="main-pad">
-            <div class="container-fluid pt-md-4">
+            <div class="container-fluid pt-md-4 px-0">
               <OwlCarousel
                 items={3}
                 className="owl-theme mt-md-5 mt-4"

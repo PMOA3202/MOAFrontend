@@ -14,7 +14,7 @@ const Help = (props) => {
         </div>
         <div className="main-pad pb-md-4">
           <div className="row mt-xl-5 my-md-5 pt-md-4 pt-xl-3 mt-4 mb-xl-4 w-100 ms-0">
-            <div className="col-md-6 px-0 px-md-3">
+            <div className="col-md-6 px-0 pe-md-3">
               <img src="img/help.jpg" />
               {/* <div className="gborder"></div> */}
             </div>

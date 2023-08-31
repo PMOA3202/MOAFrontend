@@ -75,7 +75,7 @@
   font-weight: 600;
   color: #000;
   font-family: Avenir;
-  margin: 20px auto;
+  margin: 10px auto;
   display: flex;
   border-bottom: 4px solid #dbb85c !important;
   border: none;
@@ -83,6 +83,9 @@
 }
 .lux_category .card3 {
   padding: 0px 0 30px !important;
+}
+.lux_category .card3 .card{
+  margin: 0;
 }
 .lux_category .card3 .card h3 {
   display: none;
